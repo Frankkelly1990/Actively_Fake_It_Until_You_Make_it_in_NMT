@@ -1,1 +1,0 @@
-tar -czvf Setup_Scripts.tar.gz /home/jupyter/FinalProject/Setup_Scripts

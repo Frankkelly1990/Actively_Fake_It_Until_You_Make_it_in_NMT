@@ -1,1 +1,0 @@
-python /home/jupyter/OpenNMT-tf/examples/serving/python/ende_client.py /home/jupyter/FinalProject/model_export_v2/averaged-ende-export500k-v2
