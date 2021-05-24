@@ -1,7 +1,3 @@
-mkdir exp2
-cd exp2/
-mkdir UFAL_medical_shuffled
-
 cd ~/
 git clone https://github.com/NVIDIA/nccl.git
 
@@ -20,6 +16,9 @@ git clone https://github.com/pytorch/fairseq
 cd fairseq
 pip install --editable ./
 
+python setup.py build_ext --inplace
+
+
 cd ~/
 
 git clone https://github.com/NVIDIA/apex
@@ -31,5 +30,7 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 cd ~/
 pip install pyarrow
 pip install fastBPE sacremoses
-
+pip install tensorboard
 git clone https://github.com/moses-smt/mosesdecoder.git
+git clone https://github.com/rsennrich/subword-nmt.git
+git clone https://github.com/m-popovic/chrF.git
