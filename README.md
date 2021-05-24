@@ -11,3 +11,5 @@ Experiments showed using synthetic parallel corpora generated from active learni
 
 ## Implemented Experiment Methodology
 In total 7 experiments were executed. A summary of variations between the experiments is shown the table below:
+![alt text](https://github.com/Frankkelly1990/Actively_Fake_It_Until_You_Make_it_in_NMT/blob/master/images/Experiment%20summary.PNG?raw=true)
+
