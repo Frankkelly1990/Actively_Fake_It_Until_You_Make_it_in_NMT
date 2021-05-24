@@ -68,7 +68,7 @@ Recent state of the art models NMT output sentences are approaching similar qual
 
 For experiment 2 to 7 the quality of the Facebooks FAIRs model placed higher than a human annotator on the WMT2019 document level news translation task. The adequacy of this model is exceptional, but the fluency of human translations is still considered better than current state of the art NMT solutions.
 
-As NMT are not at the same level of fluency as human translation a great level of scrutiny was applied when assessing experimental results when it was observed that the NMT model trained on synthetic data performed better than the NMT trained on the original data.
+As NMT are not at the same level of fluency as human translation a great level of scrutiny was applied when assessing experimental results when it was observed that the NMT models trained on synthetic data performed better than the NMT trained on the original data.
 
 **Poor quality pairings when original parallel corpus was gathered**
 
