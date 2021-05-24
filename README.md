@@ -52,10 +52,15 @@ The relative ranking assessment performed by a native German speaker found the N
 
 ## Conclusion
 The aim of this project work is to evaluate how effective a synthetic parallel corpus created via active learning model extraction attack are at training a substitute neural machine translation model. Analysis of experimental results confirmed that using solely a synthetic dataset generated from active learning with random sample selection can be used to train functioning NMT models.
+
 A transformer NMT trained solely on synthetic data from active learning achieved a respectable BLEU score of 29.3 on the WMT2017 news test set. To put this BLEU score into perspective the LMUs recurrent neural network NMT submission in the WMT2017 news translation task achieved the best human evaluation score and had a BLEU score of 27.1 on the same WMT2017 news test set. Surprisingly, the statistical analysis test of experimental results indicated that NMT models trained solely on synthetic data performed better than NMTs trained on the original data.
+
 As NMT models have not surpassed human quality translation the experimental result was surprising. The analysis of the large datasets used during training was found to contain web crawled parallel corpora that infrequently had poor translation pairing. Noise within the original training data allowed the NMT model trained on synthetically generated data to better match reference translation.
+
 The objective of evaluation of the effectiveness of active learning model extraction on large scale data and was not properly realised during experiments due to poor sample sentence selection. While using the larger datasets the NMT trained on the original data was not representative of a well-performing NMT that would be worthwhile for an adversary to attack. Thus, a comparison of the difference in performance between original and synthetic data would not be conducive to the assessment of the effectiveness of model extraction attacks.
+
 However, as the NMT model trained on synthetic data performed better than web crawled data, it showed that active learning is an effective unsupervised method of data augmentation. High variability of both synthetic and original NMT model’s performance is observed across the experiment. High variability of performance appeared to be caused by the random sample selection method. The greatest challenge in applying active learning model extraction attacks is the selection of high-quality sample sentences for translation.
+
 Comprehensive analyses of results from experiments conclude that simple active learning model extraction attacks are a genuine threat to the monetization of NMT models.
 
 
