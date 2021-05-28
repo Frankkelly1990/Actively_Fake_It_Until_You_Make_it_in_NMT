@@ -99,5 +99,3 @@ The objective of evaluation of the effectiveness of active learning model extrac
 However, as the NMT model trained on synthetic data performed better than web crawled data, it showed that active learning is an effective unsupervised method of data augmentation. High variability of both synthetic and original NMT model’s performance is observed across the experiment. High variability of performance appeared to be caused by the random sample selection method. The greatest challenge in applying active learning model extraction attacks is the selection of high-quality sample sentences for translation.
 
 Comprehensive analyses of results from experiments conclude that simple active learning model extraction attacks are a genuine threat to the monetization of NMT models.
-
-
